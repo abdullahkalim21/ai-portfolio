@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira Code:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="burger">
+      <div class="header">
+        <div class="logo-parent" id="frameContainer">
+          <div class="logo">
+            <div class="union">
+              <div class="union-child"></div>
+              <div class="union-item"></div>
+              <div class="union-inner"></div>
+              <div class="rectangle-div"></div>
+              <div class="union-child1"></div>
+              <div class="union-child2"></div>
+              <div class="union-child3"></div>
+              <div class="union-child4"></div>
+              <div class="union-child5"></div>
+              <div class="union-child6"></div>
+            </div>
+          </div>
+          <b class="elias">Abdullah</b>
+        </div>
+        <div class="rectangle-parent" id="frameContainer1">
+          <div class="frame-child"></div>
+          <div class="frame-item"></div>
+        </div>
+      </div>
+      <div class="elias-is-a-container">
+        <span>Abdullah is a </span>
+        <span class="web-designer">web designer</span>
+        <span> and </span>
+        <span class="web-designer">front-end developer</span>
+      </div>
+      <div class="he-crafts-responsive">
+        He crafts responsive websites where technologies meet creativity
+      </div>
+      <div class="button">
+        <div class="live">Contact me!!</div>
+      </div>
+      <div class="logo-group">
+        <img class="logo-icon" alt="" src="./public/logo.svg" />
+
+        <img
+          class="image-removebg-preview-2-icon"
+          alt=""
+          src="./public/imageremovebgpreview-2@2x.png"
+        />
+
+        <div class="dots">
+          <div class="ellipse-parent">
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+          </div>
+          <div class="ellipse-parent">
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+          </div>
+          <div class="ellipse-parent">
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+          </div>
+          <div class="ellipse-parent">
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+          </div>
+          <div class="ellipse-parent">
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+            <div class="frame-inner"></div>
+          </div>
+        </div>
+      </div>
+      <div class="rectangle-group">
+        <div class="frame-child24"></div>
+        <div class="currently-working-on-container">
+          <span class="currently-working-on">Currently working on </span>
+          <span class="portfolio">Portfolio</span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var frameContainer1 = document.getElementById("frameContainer1");
+      if (frameContainer1) {
+        frameContainer1.addEventListener("click", function (e) {
+          window.location.href = "./burger-open.html";
+        });
+      }
+      </script>
+  </body>
+</html>

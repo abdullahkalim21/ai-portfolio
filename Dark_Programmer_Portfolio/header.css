@@ -1,0 +1,198 @@
+.union-child107,
+.union-child108 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+}
+.union-child107 {
+  top: 0;
+  right: 25%;
+  bottom: 75%;
+  left: 50%;
+  background-color: var(--white);
+}
+.union-child108 {
+  top: 50%;
+  bottom: 25%;
+}
+.union-child108,
+.union-child109,
+.union-child110 {
+  right: 0;
+  left: 75%;
+  background-color: var(--white);
+}
+.union-child109 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  top: 25%;
+  bottom: 50%;
+}
+.union-child110 {
+  top: 0;
+  bottom: 75%;
+}
+.union-child110,
+.union-child111,
+.union-child112 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+}
+.union-child111 {
+  top: 50%;
+  right: 25%;
+  bottom: 25%;
+  left: 50%;
+  background-color: var(--white);
+}
+.union-child112 {
+  right: 50%;
+  left: 25%;
+}
+.union-child112,
+.union-child113 {
+  top: 25%;
+  bottom: 50%;
+  background-color: var(--white);
+}
+.union-child113,
+.union-child114,
+.union-child115 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  right: 75%;
+  left: 0;
+}
+.union-child114 {
+  top: 50%;
+  bottom: 25%;
+  background-color: var(--white);
+}
+.union-child115 {
+  top: 75%;
+  bottom: 0;
+}
+.union-child115,
+.union-child116,
+.union11 {
+  background-color: var(--white);
+}
+.union-child116 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  top: 75%;
+  right: 50%;
+  bottom: 0;
+  left: 25%;
+}
+.union11 {
+  position: relative;
+}
+.logo11,
+.union11 {
+  width: 1rem;
+  height: 1rem;
+}
+.elias18,
+.logo11 {
+  position: relative;
+}
+.logo-parent10 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  cursor: pointer;
+}
+.div36,
+.home21 {
+  position: relative;
+  font-weight: 500;
+}
+.home21 {
+  color: var(--white);
+}
+.header-link17 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.home22 {
+  position: relative;
+  color: var(--gray);
+}
+.header-link18 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.en7 {
+  position: relative;
+  font-weight: 600;
+  z-index: 0;
+}
+.language-switcher-child3 {
+  position: relative;
+  width: 0.63rem;
+  height: 0.4rem;
+  z-index: 1;
+}
+.ru-parent5 {
+  margin: 0 !important;
+  position: absolute;
+  top: 1.56rem;
+  left: 0;
+  background-color: var(--background);
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  height: 0.06rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  opacity: 0;
+  z-index: 2;
+}
+.language-switcher6 {
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-9xs);
+  color: var(--gray);
+}
+.header-link-parent2,
+.header6,
+.language-switcher6 {
+  display: flex;
+  flex-direction: row;
+}
+.header-link-parent2 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  color: var(--primary);
+}
+.header6 {
+  position: relative;
+  background-color: var(--background);
+  width: 100%;
+  padding: var(--padding-13xl) 0 var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-fira-code);
+}

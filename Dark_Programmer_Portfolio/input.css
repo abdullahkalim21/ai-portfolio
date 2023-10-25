@@ -1,0 +1,49 @@
+.name {
+  position: relative;
+}
+.name-wrapper,
+.statedefault3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.statedefault3 {
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  width: 15.28rem;
+  padding: var(--padding-5xs);
+}
+.name-wrapper {
+  position: absolute;
+  top: -0.56rem;
+  left: 0.56rem;
+  background-color: var(--background);
+  padding: 0 var(--padding-9xs);
+}
+.input,
+.statehover2 {
+  position: relative;
+  box-sizing: border-box;
+}
+.statehover2 {
+  border: 1px solid var(--white);
+  width: 15.28rem;
+  height: 2.31rem;
+  color: var(--white);
+}
+.input {
+  border-radius: var(--br-8xs);
+  background-color: var(--background);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--gray);
+  font-family: var(--font-fira-code);
+}
