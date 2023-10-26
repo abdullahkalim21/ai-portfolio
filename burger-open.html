@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./burger-open.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira Code:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="burger-open">
+      <div class="header1">
+        <div class="logo-container" id="frameContainer">
+          <div class="logo1">
+            <div class="union1">
+              <div class="union-child7"></div>
+              <div class="union-child8"></div>
+              <div class="union-child9"></div>
+              <div class="union-child10"></div>
+              <div class="union-child11"></div>
+              <div class="union-child12"></div>
+              <div class="union-child13"></div>
+              <div class="union-child14"></div>
+              <div class="union-child15"></div>
+              <div class="union-child16"></div>
+            </div>
+          </div>
+          <b class="ru">Abdullah</b>
+        </div>
+        <div class="rectangle-container" id="frameContainer1">
+          <div class="frame-child25"></div>
+          <div class="frame-child26"></div>
+          <div class="frame-child27"></div>
+        </div>
+      </div>
+      <div class="nav-link-parent">
+        <div class="nav-link" id="navLinkContainer">
+          <div class="div">#</div>
+          <div class="home">home</div>
+        </div>
+        <div class="nav-link" id="navLinkContainer1">
+          <div class="ru">#</div>
+          <div class="works">works</div>
+        </div>
+        <div class="nav-link" id="navLinkContainer2">
+          <div class="ru">#</div>
+          <div class="works">about-me</div>
+        </div>
+        <div class="nav-link3">
+          <div class="ru">#</div>
+          <div class="works">contacts</div>
+        </div>
+        <div class="language-switcher">
+          <div class="en">EN</div>
+          <img
+            class="language-switcher-child"
+            alt=""
+            src="./public/group-58.svg"
+          />
+
+          <div class="ru-parent">
+            <div class="ru">RU</div>
+            <div class="ru">UA</div>
+          </div>
+        </div>
+      </div>
+      <div class="github-parent">
+        <a href="https://github.com/abdullahkalim21">
+          <img class="discord-icon1" alt="" src="./public/github1.svg" />
+        </a>
+        <a href="https://dribbble.com/abdullahkalim216">
+          <img class="discord-icon1" alt="" src="./public/dribble1.svg" />
+        </a>
+        <a href="https://www.figma.com/@abdullahkalim21">
+          <img class="discord-icon1" alt="" src="./public/figma1.svg" />
+        </a>
+      </div>
+    </div>
+
+    <script>
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var frameContainer1 = document.getElementById("frameContainer1");
+      if (frameContainer1) {
+        frameContainer1.addEventListener("click", function (e) {
+          window.location.href = "./burger.html";
+        });
+      }
+      
+      var navLinkContainer = document.getElementById("navLinkContainer");
+      if (navLinkContainer) {
+        navLinkContainer.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var navLinkContainer1 = document.getElementById("navLinkContainer1");
+      if (navLinkContainer1) {
+        navLinkContainer1.addEventListener("click", function (e) {
+          window.location.href = "./projects.html";
+        });
+      }
+      
+      var navLinkContainer2 = document.getElementById("navLinkContainer2");
+      if (navLinkContainer2) {
+        navLinkContainer2.addEventListener("click", function (e) {
+          window.location.href = "./about.html";
+        });
+      }
+      </script>
+  </body>
+</html>

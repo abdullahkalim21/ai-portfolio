@@ -1,0 +1,111 @@
+.styleoutline-icon {
+  position: relative;
+  width: 3.31rem;
+  height: 3.31rem;
+}
+.union-child97,
+.union-child98 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  top: 0;
+  right: 25%;
+  bottom: 75%;
+  left: 50%;
+  background-color: var(--white);
+}
+.union-child98 {
+  top: 50%;
+  right: 0;
+  bottom: 25%;
+  left: 75%;
+}
+.union-child100,
+.union-child101,
+.union-child102,
+.union-child103,
+.union-child104,
+.union-child99 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  top: 25%;
+  right: 0;
+  bottom: 50%;
+  left: 75%;
+  background-color: var(--white);
+}
+.union-child100,
+.union-child101,
+.union-child102,
+.union-child103,
+.union-child104 {
+  top: 0;
+  bottom: 75%;
+}
+.union-child101,
+.union-child102,
+.union-child103,
+.union-child104 {
+  top: 50%;
+  right: 25%;
+  bottom: 25%;
+  left: 50%;
+}
+.union-child102,
+.union-child103,
+.union-child104 {
+  top: 25%;
+  right: 50%;
+  bottom: 50%;
+  left: 25%;
+}
+.union-child103,
+.union-child104 {
+  right: 75%;
+  left: 0;
+}
+.union-child104 {
+  top: 50%;
+  bottom: 25%;
+}
+.union-child105,
+.union-child106 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  top: 75%;
+  bottom: 0;
+}
+.union-child105 {
+  right: 75%;
+  left: 0;
+  background-color: var(--white);
+}
+.union-child106 {
+  right: 50%;
+  left: 25%;
+}
+.union-child106,
+.union10 {
+  background-color: var(--white);
+}
+.styledefault,
+.union10 {
+  position: relative;
+  width: 3.25rem;
+  height: 3.25rem;
+}
+.logo10 {
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--background);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}

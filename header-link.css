@@ -1,0 +1,41 @@
+.div33,
+.home18,
+.home19 {
+  position: relative;
+}
+.home18,
+.home19 {
+  color: var(--gray);
+}
+.home19 {
+  color: var(--white);
+}
+.div35,
+.home20 {
+  position: relative;
+  font-weight: 500;
+}
+.home20 {
+  color: var(--white);
+}
+.header-link16,
+.stateactive {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.header-link16 {
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--background);
+  width: 100%;
+  flex-direction: column;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--primary);
+  font-family: var(--font-fira-code);
+}

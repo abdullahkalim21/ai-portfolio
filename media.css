@@ -1,0 +1,36 @@
+.twitter-icon2 {
+  width: 2rem;
+  height: 2rem;
+}
+.elias16,
+.twitter-icon2 {
+  position: relative;
+}
+.media10,
+.statedefault1,
+.statehover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.media10,
+.statehover {
+  color: var(--white);
+}
+.media10 {
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--background);
+  width: 100%;
+  flex-direction: column;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--gray);
+  font-family: var(--font-fira-code);
+}
